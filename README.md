@@ -43,6 +43,7 @@ Worked examples from the handbook:
 ```
 src/invoicing/
   models.py           Invoice, InvoiceLine; invoice totals
+  vat.py              line_vat(), invoice_vat(); 5% VAT per the finance handbook
 tests/
 ```
 
